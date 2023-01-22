@@ -1,0 +1,50 @@
+title: Movie Previews
+
+pages:
+  - id: knshow-movie-online
+    title: Knshow/Movie/Online
+    url: https://www.knshow.com/c/313395/
+    item_selector: ol.KnshowList > li
+    item_link_selector: h3.listTitle > a
+    item_title_selector: h3.listTitle > a
+    item_time_selector: div.listInfo > p:nth-of-type(2)
+
+  - id: knshow-movie-tokyo
+    title: Knshow/Movie/Tokyo
+    url: https://www.knshow.com/movie/tokyo/
+    item_selector: ol.KnshowList > li
+    item_link_selector: h3.listTitle > a
+    item_title_selector: h3.listTitle > a
+    item_time_selector: div.listInfo > p:nth-of-type(2)
+
+  - id: knshow-movie-aichi
+    title: Knshow/Movie/Aichi
+    url: https://www.knshow.com/movie/aichi/
+    item_selector: ol.KnshowList > li
+    item_link_selector: h3.listTitle > a
+    item_title_selector: h3.listTitle > a
+    item_time_selector: div.listInfo > p:nth-of-type(2)
+
+  - id: knshow-movie-osaka
+    title: Knshow/Movie/Osaka
+    url: https://www.knshow.com/movie/osaka/
+    item_selector: ol.KnshowList > li
+    item_link_selector: h3.listTitle > a
+    item_title_selector: h3.listTitle > a
+    item_time_selector: div.listInfo > p:nth-of-type(2)
+
+  - id: knshow-movie-fukuoka
+    title: Knshow/Movie/Fukuoka
+    url: https://www.knshow.com/movie/fukuoka/
+    item_selector: ol.KnshowList > li
+    item_link_selector: h3.listTitle > a
+    item_title_selector: h3.listTitle > a
+    item_time_selector: div.listInfo > p:nth-of-type(2)
+
+  - id: nagoyanavi-movie
+    title: Nagoyanavi/Movie
+    url: https://www.nagoyanavi.jp/movie/
+    item_selector: table center:nth-of-type(3) > table > tr:not(:first-of-type)
+    item_link_selector: td:first-of-type > a
+    item_title_selector: td:first-of-type > a > b
+    item_time_selector: td:last-of-type
